@@ -1,0 +1,128 @@
+1.
+#WAP to accept a percentage from the user and display the grade
+n=int(input("enter your percentage:"))
+if n>90:
+    print("A")
+elif n>80 and n<=90:
+    print("B")
+elif n>=60 and n<=80:
+    print("c")
+Elif n<60:
+     print("D")	
+else:
+    print("invalid input")
+
+2.
+#WAP to accept the cost price of a bike and display the tax to be paid
+n=int(input("enter the cost price of the bike:"))
+if n>100000:
+    tax=(15/100)*n
+    print("the road tax will be {}".format(tax))
+elif n>50000 and n<=100000:
+    tax=(10/100)*n
+    print("the road tax will be {}".format(tax))
+elif  n<=50000:
+    tax=(5/100)*n
+    print("the road tax will be {}".format(tax))
+else:
+    print("INVALID INPUT")
+
+3.
+#WAP to accept the cost price of a bike and display the tax to be paid
+n=input("enter the name of the city=")
+if n=="delhi":
+    print("Red Fort is a famous monument of {}".format(n))
+elif n=="agra":
+    print("Taj Mahal is a famous monument of {}".format(n))
+elif  n=="jaipur":
+    print("jal Mahal is a famous monument of {}".format(n))
+else:
+    print("INVALID INPUT")
+
+4.#WAP how many a number can be divided by 3 until it is <=10
+n=int(input("enter a number="))
+count=0
+while n>10:
+    n=n/3
+    count+=1
+print(count)
+
+5.
+Python while loop is used to run a block code until a certain condition is met.
+Here,
+1.A while loop evaluates the condition
+2.If the condition evaluates to True, the code inside the while loop is executed.
+condition is evaluated again.
+3.This process continues until the condition is False.
+4.When the condition evaluates to False, the loop stops
+  
+Example-
+i=10
+sum=0
+while i>0:
+     sum+=i
+print(sum)
+
+6. 
+a)
+ i=1
+while i<=5:
+    j=1
+    while j<=i:
+        print(j,end=" ")
+        j=j+1
+    print("")
+    i=i+1
+
+
+o/p-
+* 
+* *
+* * *
+* * * *
+* * * * *
+b)
+n=5
+i = 1
+while i <= n :
+    j = n
+    while j >= i:
+        print("*", end = " ")
+        j -= 1
+    print()
+    i += 1
+o/p-
+* * * * * 
+* * * * 
+* * *
+* *
+*
+c)
+n=3
+i = 1
+while i<n:
+      
+      print("* " * i)
+      i+=1
+
+   
+i = n
+while i>=1:
+      
+      print("* " * i)
+      i-=1
+o/p-
+* 
+* * 
+* * *
+* *
+*
+
+7.
+i=10
+while i>0:
+    print(i,end=”,”)
+    i-=1
+
+o/p- 10,9,8,7,6,5,4,3,2,1,
+8) same as 7 [7 & 8 question is same]
