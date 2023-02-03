@@ -1,0 +1,36 @@
+                                                       29th Jan python Assignment
+                                                                                                   -Anisha Parveen
+1. who developed python programming language
+-> Guido van Rossum in 1991
+2. which type of programming does python support?
+-> Object-oriented programming, structured programming and it is also a dynamically typed language.
+3. is python case sensitive when dealing with identifiers?
+-> yes.
+4. what is the correct extension of the python file?
+->”.py ”
+5. is python code compiled or interpreted?
+-> interpreted.
+6. name a few blocks of code used to define in python language?
+-> a module, a function body, and a class definition.
+7. state a character used to give single line comments in python?
+-> “ # ”
+8. mention function which can help us to find the version of python that we are currently working on?
+-> python_version() and also we can use Python -V command.
+9. python supports the creation of anonymous functions at runtime, using a construct called – lambda
+10. what does pip stands for python?
+-> "preferred installer program"
+11. mention a few build-in functions in python?
+- > print() , type() , input() , pow(),sorted( ) , max( ) .
+12. what is the maximum possible length of an identifier in python?
+-> 79 character.
+13. what are the benefits of using python?
+-> Simple to Use and Understand, Free and Open-Source, Extensive library, more Portability etc.
+14. how is memory managed in python?
+-> Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager. 
+15. how to install python on windows and set path variables?
+ -> Open a browser to the Python website and download the Windows installer. Double click on the downloaded file and install Python and ensure that Python is added to your path.
+Right click on My Computer ->Properties ->Advanced System setting ->Environment Variable ->New
+In Variable name write path and in Variable value copy path up to C://Python(i.e., path where Python is installed). Click Ok ->Ok.
+Path will be set for executing Python programs.
+16. is indentation required in python?
+-> the indentation in python is very important. python uses indentation to indicate a block of code.
